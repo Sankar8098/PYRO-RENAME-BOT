@@ -157,4 +157,3 @@ async def upload_callback(bot, update):
     os.remove(ending_image_path)
 
 # Run the client
-app.run()
