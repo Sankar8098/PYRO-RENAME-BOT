@@ -44,4 +44,5 @@ class Bot(Client):
             except:
                 print("Please make sure this bot is admin in your log channel")
 
-Bot().run()
+if __name__ == "__main__":
+    Bot().run()
